@@ -22,6 +22,7 @@ function pushToGTM(transactionId) {
     window.dataLayer = window.dataLayer || [];
     dataLayer.push({
         'event': 'purchase',
+        'type': 'gtm',
         'ecommerce': {
             'transaction_id': '12345',
             'affiliation': 'LuxeCarry Online Store',
